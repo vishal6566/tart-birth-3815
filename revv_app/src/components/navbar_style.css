@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Navbarcss{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+display: flex;
+justify-content: space-around;
+padding: .3rem;
+
+}
+.Navbarcss>div:first-child{
+   
+   display: flex;
+
+}
+.Navbarcss>div:first-child>div{
+    position: relative;
+   
+    font-size: 12px;
+    
+    top: 70%;
+    right:25%;
+}
+.Navbarcss>div:last-child{
+   
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.subs{
+    border: 1px solid #E4E5EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    border-radius: 5px;
+    padding: 0px .5rem;
+}
+.subs>span{
+    font-weight: bold;
+}
+
+.subs:hover{
+    cursor: pointer;
+    color: #5fd3ed;
+}
+.Navbarcss>div:last-child>div:last-child{
+   
+    display: flex;
+    gap: .5rem;
+}
+.sub:hover{
+    cursor: pointer;
+    color: #5fd3ed;
+}
