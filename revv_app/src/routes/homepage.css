@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
 .banner{
     background-color: #FFF7E2;
@@ -80,4 +81,48 @@
     width: 22%;
     margin: auto;
     margin-bottom: 10px;
+}
+.inputSection{
+    width: 90%;
+    height: 25%;
+    
+    margin: auto;
+    margin-top: 3%;
+}
+.date{
+    
+    height: 50%;
+    display: flex;
+}
+.date>div{
+    border: 1px solid rgb(224, 222, 222);
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+.date>div>input{
+    width: 100%;
+    
+}
+.btn{
+    margin: auto;
+  
+    width: 90%;
+    margin-top: 3%;
+    height: 12%;
+}
+.btn>button{
+    width: 90%;
+    background-color: #49A6BA;
+    color: white;
+    height: 100%;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-left: 5%;
+
+}
+.homePage_midsection{
+    background-color: #F1F4F8;
+    height: 500px;
+    width: 100%;
 }
